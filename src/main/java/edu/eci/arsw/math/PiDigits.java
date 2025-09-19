@@ -61,7 +61,7 @@ public class PiDigits {
                 try {
                     Thread.sleep(5000);
 
-                    System.out.println("=== Progreso de cálculo de dígitos de PI ===");
+                    System.out.println("=== Progreso de calculo de digitos de PI ===");
                     int totalProcessed = 0;
                     for (int i = 0; i < threads.length; i++) {
                         int processed = threads[i].getProcessedDigits();
